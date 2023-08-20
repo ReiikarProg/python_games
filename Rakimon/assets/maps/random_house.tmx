@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="git" orientation="orthogonal" renderorder="right-down" width="14" height="13" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="21">
+ <tileset firstgid="1" source="../tilesets/pokemon.tsx"/>
+ <tileset firstgid="13349" source="../tilesets/indoor.tsx"/>
+ <layer id="4" name="full_load" width="14" height="13">
+  <data encoding="csv">
+14459,14460,14461,14462,14463,14464,14465,14466,14467,14468,14469,14470,14471,14472,
+14504,14505,14506,14507,14508,14509,14510,14511,14512,14513,14514,14515,14516,14517,
+14549,14550,14551,14552,14553,14554,14555,14556,14557,14558,14559,14560,14561,14562,
+14594,14595,14596,14597,14598,14599,14600,14601,14602,14603,14604,14605,14606,14607,
+14639,14640,14641,14642,14643,14644,14645,14646,14647,14648,14649,14650,14651,14652,
+14684,14685,14686,14687,14688,14689,14690,14691,14692,14693,14694,14695,14696,14697,
+14729,14730,14731,14732,14733,14734,14735,14736,14737,14738,14739,14740,14741,14742,
+14774,14775,14776,14777,14778,14779,14780,14781,14782,14783,14784,14785,14786,14787,
+14819,14820,14821,14822,14823,14824,14825,14826,14827,14828,14829,14830,14831,14832,
+14864,14865,14866,14867,14868,14869,14870,14871,14872,14873,14874,14875,14876,14877,
+14909,14910,14911,14912,14913,14914,14915,14916,14917,14918,14919,14920,14921,14922,
+14954,14955,14956,14957,14958,14959,14960,14961,14962,14963,14964,14965,14966,14967,
+14999,15000,15001,15002,15003,15004,15005,15006,15007,15008,15009,15010,15011,15012
+</data>
+ </layer>
+ <objectgroup id="5" name="collision">
+  <object id="6" type="collision" x="-1.5" y="123.5" width="61.5" height="47.5"/>
+  <object id="7" type="collision" x="10.5" y="72.5" width="23.5" height="30"/>
+  <object id="12" type="collision" x="0" y="19" width="140.5" height="23"/>
+  <object id="13" type="collision" x="133.5" y="5.5" width="33" height="24"/>
+  <object id="14" type="collision" x="164.5" y="6" width="57" height="35"/>
+  <object id="15" type="collision" x="164.5" y="77.5" width="38" height="26"/>
+  <object id="16" type="collision" x="165" y="124.5" width="52.5" height="44.5"/>
+  <object id="17" type="collision" x="223.25" y="5.25" width="6" height="203.5"/>
+  <object id="18" type="collision" x="131" y="203.5" width="91" height="7"/>
+  <object id="19" type="collision" x="-0.5" y="206" width="95" height="4"/>
+  <object id="20" type="collision" x="-3" y="3" width="4.5" height="204"/>
+ </objectgroup>
+ <objectgroup id="2" name="points">
+  <object id="4" name="from_random_house_to_road2" x="99.5" y="202.5" width="25" height="15"/>
+  <object id="5" name="from_road2_to_random_house_point" x="88" y="174">
+   <point/>
+  </object>
+  <object id="8" name="sign" x="1.5" y="68" width="40" height="44"/>
+ </objectgroup>
+</map>

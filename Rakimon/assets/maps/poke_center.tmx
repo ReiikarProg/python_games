@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="git" orientation="orthogonal" renderorder="right-down" width="15" height="18" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="45">
+ <tileset firstgid="1" source="../../../Pygamon/assets/map/floor.tsx"/>
+ <tileset firstgid="217" source="../tilesets/pokemon.tsx"/>
+ <layer id="9" name="BG" width="15" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgYwCs9ikfxKB6qGACKAiWB
+  </data>
+ </layer>
+ <layer id="11" name="ground" width="15" height="18">
+  <data encoding="base64" compression="zlib">
+   eJztybkNgDAQRNENuRJSb0tcVWCgJlfAVSAR3wUgrSBC8pdeMJpQi4SXrg/+WuNEWnToMTjbF1vZG3YcOJ3ti2UqkqNAiUptX2xke0yYsajtS6WeugFJNCwl
+  </data>
+ </layer>
+ <layer id="10" name="Decor" width="15" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzF0ksOwVAYxfHPawPEQFodMuwivBehnkNWYWwR3otAqdhAl2Al/G9EcD3SdsCX/CbNOblnUJHo56dFBhimw/fszPO3Ul6kjAqqqKGOBkbmPad6Y607ITPFDHMssMQKp4eu6vna1jMZsURiiCOBJFKWNtp83dwk46CFNjrooqd11Zv65jWZDbZwscMenta132wOeupNfXPQe7c56P1j8zF7FXaz6vQMkb4RfrPqevQOxm83387hn2znonVVz/3SLbCp+GGX6l0AlAsviA==
+  </data>
+ </layer>
+ <objectgroup id="12" name="collision">
+  <object id="28" type="collision" x="3" y="5.5" width="236" height="25"/>
+  <object id="30" type="collision" x="2" y="64" width="11" height="221"/>
+  <object id="31" type="collision" x="17" y="285" width="98" height="4.5"/>
+  <object id="33" type="collision" x="148.5" y="284.5" width="72" height="5"/>
+  <object id="35" type="collision" x="226" y="265.5" width="14" height="21.5"/>
+  <object id="36" type="collision" x="210" y="179" width="29" height="59.5"/>
+  <object id="37" type="collision" x="192" y="194.5" width="14.5" height="28.5"/>
+  <object id="38" type="collision" x="228" y="31" width="10" height="141.5"/>
+  <object id="39" type="collision" x="231.5" y="244.5" width="7" height="27.5"/>
+  <object id="40" type="collision" x="66" y="34" width="14.5" height="49.5"/>
+  <object id="41" type="collision" x="81.5" y="69.5" width="91.5" height="16.5"/>
+  <object id="42" type="collision" x="163" y="38.5" width="11" height="33"/>
+  <object id="43" type="collision" x="177.5" y="38" width="12.5" height="23.5"/>
+ </objectgroup>
+ <objectgroup id="13" name="pnj_path">
+  <object id="44" name="pnj4_path1" x="116.5" y="36.5" width="18.5" height="17"/>
+ </objectgroup>
+ <objectgroup id="8" name="points">
+  <object id="25" name="exit_center" x="120.091" y="280.06" width="22.8182" height="6.36364"/>
+  <object id="26" name="enter_center_location" x="86.6667" y="236">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

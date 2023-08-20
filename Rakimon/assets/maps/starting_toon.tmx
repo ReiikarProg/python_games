@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="git" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="54">
+ <tileset firstgid="1" source="../tilesets/nature_ground.tsx"/>
+ <tileset firstgid="2377" source="../../../Pygamon/assets/map/floor.tsx"/>
+ <tileset firstgid="2593" source="../tilesets/natureset.tsx"/>
+ <tileset firstgid="3313" source="../tilesets/Interior.tsx"/>
+ <layer id="7" name="background" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwwENAAAMw6D6tzODF3JIWDVVVVXfPbqadWs=
+  </data>
+ </layer>
+ <layer id="9" name="trees_and_ground" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztl9EJgDAMRFOHqQ6lDqWu0d3UCcyHBREDF0nEjxwcHII5eIRAc0PUsjt2BrIk5N9r7tkDewRzVTldpZ0zsWf2AmapVzsHYfikey8iibN3r8TZuzc4B+c627IX5VwAa4Rytu6Nff7XPlv3Bufg7NHrfZ+l75b3WXM/Le+zptdin99I4rwmoo29J58scf4ya98XVln7vrDKB6EOxb4=
+  </data>
+ </layer>
+ <layer id="10" name="decor" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1LdOw1AYQOGbQAKEAYn2BtSFNkIoG/0JaAttowk2miCElSbRN9pKJwFWmkTfaDMCRJsRZ7gRxgrgCxFZ8kufHFv2PZHjWIjfzboUmL9Ng1mIRjShGS3m/+nO0JnFHOax8E/dCzqXuMI1bgx0e02f9x3s95m8n/vVRAYJEYVoxCA26OdrXLqGm/1NA90Ized8OgUoRBGKDXR9Me10OtCJLnQb7Hq+u/aeR3g90/ss0VnGClaxJrtxNiHibT9fr7/nRudWdu7Y3uNB7pfQLPXS/c0z5IvRPkOe++pkv98P32WL5rYfuiqj8ux9N4s+Wsfo9PBe64UDfXAqvF9TgoVIRRrSkRFs/NoNOi64sYkthW41nRrUog71Ct1HOk94xgteFbrjdCYwiSlMK3Tj+Z8nIBFJSFZ4vx7TOcEpznAuu6MWIcYwbvk4V3+sjE45KlCJKoVuCGuEIgw2hMs1D9ke4VjT1R8boDOIIQxjRKFrZ41s5CAXeXJNi1UIK0KsH+fqj+3Q2cUe9nGg0G2m0yJbrWzb5OdM1s6CXdPVH3vzdPhtTDArPBv+GF+9rwITGH/MOy8nUfM=
+  </data>
+ </layer>
+ <objectgroup id="11" name="points">
+  <object id="7" name="starting_point" x="324.5" y="364.75">
+   <point/>
+  </object>
+  <object id="35" name="enter_home" x="334.545" y="344.364" width="18" height="10.1818"/>
+  <object id="36" name="enter_neighbor_home" x="109.375" y="150.125" width="20.5" height="11.75"/>
+  <object id="37" name="exit_neighbor_home_in_toon" x="101.333" y="179.333">
+   <point/>
+  </object>
+  <object id="49" name="from_starting_toon_to_road1" x="224.5" y="2.5" width="31" height="11.5"/>
+  <object id="50" name="entering_starting_toon" x="252.5" y="34.5">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="12" name="collision">
+  <object id="8" type="collision" x="290.317" y="3.34981" width="185.915" height="40.1977"/>
+  <object id="9" type="collision" x="439.384" y="49.1306" width="33.4981" height="425.426"/>
+  <object id="10" type="collision" x="5.58302" y="436.592" width="425.984" height="35.173"/>
+  <object id="11" type="collision" x="5.58302" y="5.02472" width="31.8232" height="429.334"/>
+  <object id="12" type="collision" x="37.4062" y="2.79151" width="149.625" height="38.5228"/>
+  <object id="14" type="collision" x="192.614" y="349.497" width="13.9575" height="15.6325"/>
+  <object id="16" type="collision" x="273.01" y="351.172" width="11.7243" height="13.3992"/>
+  <object id="17" name="sign" x="193.772" y="146.55" width="27.9655" height="26.174"/>
+  <object id="18" type="collision" x="305.949" y="95.4696" width="12.8409" height="15.0741"/>
+  <object id="19" type="collision" x="367.363" y="81.5121" width="30.7066" height="30.1483"/>
+  <object id="20" type="collision" x="353.963" y="143.484" width="12.8409" height="15.0741"/>
+  <object id="21" type="collision" x="286.967" y="161.908" width="32.3815" height="28.4734"/>
+  <object id="22" type="collision" x="366.804" y="179.215" width="29.59" height="25.1236"/>
+  <object id="23" type="collision" x="317.674" y="260.169" width="83.7453" height="92.6781"/>
+  <object id="25" type="collision" x="77.604" y="267.985" width="79.8372" height="84.8619"/>
+  <object id="26" type="collision" x="185.531" y="1.73321" width="35.7313" height="12.8409"/>
+  <object id="27" type="collision" x="257.377" y="1.67491" width="29.59" height="13.3992"/>
+  <object id="29" type="collision" x="96.5862" y="96.5862" width="77.0457" height="61.9715"/>
+  <object id="34" type="collision" x="103.844" y="70.346" width="63.6464" height="25.1236"/>
+  <object id="51" type="collision" x="196.375" y="149.375" width="22.75" height="14.75"/>
+ </objectgroup>
+ <objectgroup id="13" name="pnj_path">
+  <object id="40" name="pnj1_path1" x="303.682" y="47.8333" width="15.6364" height="16.1818"/>
+  <object id="41" name="pnj1_path2" x="384.53" y="47.697" width="15.6364" height="15.8182"/>
+  <object id="46" name="pnj2_path1" x="181.878" y="247.151" width="3.15148" height="2.84852"/>
+  <object id="53" name="pnj0_path1" x="191" y="24" width="12.5" height="12.5"/>
+ </objectgroup>
+</map>
